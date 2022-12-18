@@ -1,3 +1,5 @@
+//Задание 1:
+
 const personage = 'заяц';
 function kolobok(personage) {
     switch (personage) {
@@ -11,6 +13,9 @@ function kolobok(personage) {
             return 'Введите существующего персонажа: дедушка, заяц, лиса';
     }
 }
+
+//Задание 2:
+
 console.log(kolobok(personage));
 
 const charName = 'Дед Мороз';
